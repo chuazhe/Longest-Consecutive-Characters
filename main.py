@@ -24,4 +24,4 @@ for char in inputString:
 if maxCount>1:
     print("The longest consecutive character is "+maxChar+" and the count is "+str(maxCount))
 else:
-    print("No longest consecutive character because the count of longest consecutive character is 1!")
+    print("No longest consecutive character because the count of all the characters is 1!")
