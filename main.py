@@ -21,7 +21,7 @@ for char in inputString:
     # Restart the character
     previousChar=currentChar
 
-if currentCount>1:
+if maxCount>1:
     print("The longest consecutive character is "+maxChar+" and the count is "+str(maxCount))
 else:
     print("No longest consecutive character because the count of longest consecutive character is 1!")
