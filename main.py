@@ -6,15 +6,19 @@ maxChar=''
 maxCount=int(0)
 previousChar=''
 
+# Loop through each character in a string
 for char in inputString:
     currentChar=char
     if currentChar == previousChar:
-        currentCount +=1
-        if currentCount > maxCount:
+        currentCount +=1 # Increment the count
+        if currentCount > maxCount: # If the current count is higher than the max count
+            # Update the result
             maxChar=currentChar
             maxCount=currentCount
     else:
+        # Restart the count
         currentCount=1
+    # Restart the character
     previousChar=currentChar
 
 if currentCount>1:
